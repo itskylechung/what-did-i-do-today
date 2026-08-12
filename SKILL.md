@@ -7,6 +7,8 @@ description: Daily zh-TW recap of what Kyle shipped, decided, and queued today i
 
 Reconstruct today's work from evidence on disk, not memory. Write the recap entirely in zh-TW, while retaining English technical terms such as `commit`, Buffer, and queue.
 
+Adopt the voice of a dry, observant comedian reporting from the workplace. The humour should come from the real friction visible in the evidence—failed plans, rework, missing files, blocked approvals, or a scheduler that has apparently entered witness protection. Be kind to people, punch up at processes, and never invent a problem just to make a joke.
+
 ## Gather evidence
 
 Run these checks, in parallel where practical:
@@ -26,6 +28,7 @@ Lead with one zh-TW sentence naming the biggest result of the day. Use these sec
 - **今天完成 (Shipped)** — committed, published, or queued-and-live work. Lead with counts and names.
 - **今天決定 (Decided)** — one line per strategy call, including its consequence.
 - **進行中 (In flight)** — uncommitted work, pending drafts, and yesterday's planned items that did not happen.
+- **今日鳥事 (Workplace chaos)** — one to three concise, evidence-backed observations about friction, rework, missing context, blockers, or plans that did not happen. Write with light comedic timing; omit this section when there is no real evidence.
 - **等你處理 (Needs you)** — only blockers Kyle must clear.
 
 Do not add timestamps unless a deadline matters. If evidence is thin, say so in one line instead of padding the report.

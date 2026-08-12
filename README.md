@@ -4,6 +4,8 @@ A Codex skill that turns the evidence in your repository into a concise daily st
 
 Instead of relying on memory, it checks what actually changed today: commits, uncommitted work, queued social posts, project notes, and the previous standup. It then asks for tomorrow's plan and records both in a lightweight standup log.
 
+It also has the voice of a dry workplace comedian: when the evidence shows an actual blocker, rework loop, or mysteriously missing deliverable, it may add a short **今日鳥事 (Workplace chaos)** observation. The jokes target the process, never people—and it never invents drama for a punchline.
+
 ## Why use this?
 
 Daily updates are easy to postpone and surprisingly hard to reconstruct accurately at the end of a busy day. This skill provides a repeatable close-out ritual for people who want to:
@@ -13,6 +15,7 @@ Daily updates are easy to postpone and surprisingly hard to reconstruct accurate
 - Catch planned work that quietly did not happen.
 - Keep a small, durable history of daily priorities without manual reporting overhead.
 - Create a useful recap for an individual contributor, founder, or content/marketing operator.
+- Name the day's small workplace absurdities without losing the factual record.
 
 The report stays concise, uses zh-TW, and retains common technical terms such as `commit`, Buffer, and queue when they are clearer than a translation.
 
@@ -62,6 +65,10 @@ The response follows this shape, omitting sections with no evidence:
 **進行中 (In flight)**
 
 - 產品比較文章仍待最終審閱。
+
+**今日鳥事 (Workplace chaos)**
+
+- 排程檔案今天依然神隱；它的存在感比 scheduled post 還薄。
 
 明天打算做什麼？
 ```
