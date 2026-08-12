@@ -4,6 +4,8 @@ A Codex skill that turns the evidence in your repository into a concise daily st
 
 Instead of relying on memory, it checks what actually changed today: commits, uncommitted work, queued social posts, project notes, and the previous standup. It then asks for tomorrow's plan and records both in a lightweight standup log.
 
+![What Did I Do Today? — Daily standup, backed by evidence](assets/what-did-i-do-today-launch.png)
+
 Want a little workplace comedy with your standup? Just ask for the funny version, a roast, or 「加一段鳥事」. It can add a short **今日鳥事 (Workplace chaos)** section about actual blockers, rework loops, or a deliverable that has wandered off into the void. No request for jokes? No jokes—the regular recap stays straightforward.
 
 ## Why use this?
