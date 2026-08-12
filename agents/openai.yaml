@@ -1,0 +1,4 @@
+interface:
+  display_name: "What Did I Do Today"
+  short_description: "Create a daily zh-TW work recap and standup log"
+  default_prompt: "What did I do today?"
